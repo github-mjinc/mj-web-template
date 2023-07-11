@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint": "eslint **/*.js --fix"
+    "lint": "npm run markuplint && npm run stylelint && npm run eslint && npm run prettier",
+    "markuplint": "markuplint **/*.html",
+    "stylelint": "stylelint **/*.css",
+    "eslint": "eslint **/*.js --fix",
+    "prettier": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   "homepage": "https://github.com/github-mjinc/mj-web-template#readme",
   "devDependencies": {
     "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard": "^17.1.0",
     "markuplint": "^3.11.0",
     "prettier": "^3.0.0",
