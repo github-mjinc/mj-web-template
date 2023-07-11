@@ -1,0 +1,28 @@
+{
+  "name": "mj-web-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint **/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github-mjinc/mj-web-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github-mjinc/mj-web-template/issues"
+  },
+  "homepage": "https://github.com/github-mjinc/mj-web-template#readme",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
+    "markuplint": "^3.11.0",
+    "prettier": "^3.0.0",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}

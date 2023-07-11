@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://domain.xxx" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MJ WEB TEMPLATE" />
+    <meta property="og:description" content="description" />
+    <meta property="og:site_name" content="MJ WEB TEMPLATE" />
+    <meta property="og:image" content="https://domain.xxx/assets/images/ogp.png" />
+    <title>MJ WEB TEMPLATE</title>
+    <meta name="description" content="description" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <style>
+      /* styleは全て「.cssファイル」でチェックします。
+      HTMLにインラインのスタイルは記載しないで下さい。 */
+      div {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 onClick="clickFunc()">MJ WEB TEMPLATE</h1>
+      <p>各種Lintツールの設定を含んだプロジェクトです。</p>
+    </div>
+
+    <span>
+      <h2>Markup Errorテスト</h2>
+      <p>npm run lintにてエラーが確認出来ます。</p>
+      <ul>
+        <li>ul &gt; li</li>
+        <div>ul > div</div>
+        <li>ul &gt; li</li>
+      </ul>
+    </span>
+
+    <img src="" alt="" />
+
+    <script>
+      /* scriptは全て「.jsファイル」でチェックします。
+      HTMLにインラインのスクリプトは記載しないで下さい。 */
+      ;(() => {
+        var test = 'test'
+      })()
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js" integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="/js/common.js" defer></script>
+  </body>
+</html>
