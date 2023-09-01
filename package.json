@@ -4,10 +4,10 @@
   "description": "",
   "scripts": {
     "lint": "npm run markuplint && npm run stylelint && npm run eslint && npm run prettier",
-    "markuplint": "markuplint **/*.html",
-    "stylelint": "stylelint **/*.css",
-    "eslint": "eslint **/*.js --fix",
-    "prettier": "prettier . --write"
+    "markuplint": "markuplint 'public/**/*.html'",
+    "stylelint": "stylelint 'public/**/*.css' --fix",
+    "eslint": "eslint 'public/**/*.js'",
+    "prettier": "prettier 'public' --write"
   },
   "repository": {
     "type": "git",
