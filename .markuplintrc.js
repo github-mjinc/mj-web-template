@@ -28,6 +28,7 @@ module.exports = {
         ],
       },
     },
+    'label-has-control': false
   },
   extends: ['markuplint:recommended'],
 }
