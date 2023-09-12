@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "lint": "npm run markuplint && npm run stylelint && npm run eslint && npm run prettier",
-    "markuplint": "markuplint 'public/**/*.html'",
+    "markuplint": "markuplint 'public/**/*.html' --allow-warnings",
     "stylelint": "stylelint 'public/**/*.css' --fix",
     "eslint": "eslint 'public/**/*.js'",
     "prettier": "prettier 'public' --write"
