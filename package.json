@@ -5,9 +5,9 @@
   "scripts": {
     "lint": "npm run markuplint && npm run stylelint && npm run eslint && npm run prettier",
     "markuplint": "markuplint 'public/**/*.html' --allow-warnings",
-    "stylelint": "stylelint 'public/**/*.css' --fix",
+    "stylelint": "stylelint 'public/**/*.css'",
     "eslint": "eslint 'public/**/*.js'",
-    "prettier": "prettier 'public' --write"
+    "prettier": "prettier 'public'"
   },
   "repository": {
     "type": "git",

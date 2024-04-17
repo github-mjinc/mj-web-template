@@ -9,4 +9,7 @@ module.exports = {
   },
   // 外部ライブラリなどは「js/lib」ディレクトリ下などに配置される事を想定。これを除外。
   ignorePatterns: ['**/lib/*.js'],
+  rules: {
+    'no-var': 'error'
+  }
 }
